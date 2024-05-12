@@ -19,5 +19,5 @@ Sign up
             <input class="input-box" type="password" id="password" name="password" required>
             <button type="submit" class="btn">Sign Up</button>
         </form>
-        <p class="signup-link">Already a patron ? <a href= {% url "login" %}>Log in</a></p>
+        <p class="signup-link">Already a patron ? <a href= {% url "users:login" %}>Log in</a></p>
 {% endblock %}
