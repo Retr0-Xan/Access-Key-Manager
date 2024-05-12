@@ -8,11 +8,18 @@
     <link rel="stylesheet" href="{% static 'css/styles.css' %}">
 </head>
 <body>
-    <div class="container">
-        <h1>Welcome to Access Key Manager</h1>
-        <p>Manage and purchase access keys for your school management platform</p>
-        <a href="login.html" class="btn">Log In</a>
-        <a href="signup.html" class="btn">Sign Up</a>
+    <div class="header">
+        <h1>Micro-Focus Inc.</h1>
     </div>
+    <div class="container">
+        <h2>Login to Access Key Manager</h2>
+        <form action="login.html" method="POST">
+            <label for="email">Email:</label>
+            <input class="input-box" type="text" id="email" name="email" required>
+            <label for="password">Password:</label>
+            <input class="input-box" type="password" id="password" name="password" required>
+            <button type="submit" class="btn">Login</button>
+        </form>
+        <p class="signup-link">Don't have an account? <a href="signup.html">Sign Up</a></p>
 </body>
 </html>
