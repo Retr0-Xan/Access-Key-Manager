@@ -1,6 +1,6 @@
-# __ Access Key Manager __
-Project Description
-Access Key Manager is a web application designed to facilitate the management and purchase of access keys for schools using Micro-Focus Inc.'s school management platform. The platform operates on a multi-tenant system, allowing multiple schools to set up accounts as if the platform was tailored specifically for them. Instead of integrating payment features directly into the school software, the decision was made to implement an access key-based monetization approach.
+# __Access Key Manager__
+## Project Description
+Access Key Manager is a web application designed to facilitate the management and purchase of access keys for schools using Micro-Focus Inc.'s (a hypothetical organization) school management platform. The platform operates on a multi-tenant system, allowing multiple schools to set up accounts as if the platform was tailored specifically for them. Instead of integrating payment features directly into the school software, the decision was made to implement an access key-based monetization approach.
 
 Customer Requirements
 School IT Personnel
