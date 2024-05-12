@@ -19,3 +19,13 @@ School IT Personnel
 + Web Application Source Code: The source code is available on GitHub.
 + ER Diagram: An Entity-Relationship (ER) diagram illustrating the database design is included.
 + Deployed Link: The web application is deployed and accessible online.
+
+## Technology Stack
++ Backend: Django
++ Frontend: HTML, CSS, JavaScript
+
+## Contributors
+Mark Ayitey
+
+ ## License
+This project is licensed under the [MIT License](https://github.com/facebook/react/blob/main/LICENSE).
